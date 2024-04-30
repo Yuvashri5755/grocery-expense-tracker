@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/b/grocery-store-banner-food-drinks-icons-set-vector-illustration-isolated-white-background-91489795.jpg");
+    margin:10px;
+   }
+
+   h1,h2{
+    text-align: center;
+    color: hsl(314, 100%, 50%);
+   }
+   .input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+   }
+   .input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+   }
+   .input-section input[type=”number”], .input-section input[type=”date”]{
+    padding: 5px;
+    margin-right: 10px;
+   }
+   .input-section button{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 192);
+    color:rgb(246, 14, 14);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   .expenses-list{
+    margin: 20px;
+   }
+   table{
+    
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    border-collapse: collapse;
+   }
+   th,td{
+    border: 2px solid #f92929;
+    text-align: center;
+    padding: 9px;
+    text-align: left;
+   }
+   th{
+    background-color: rgba(0, 237, 250, 0.704);
+    color: rgb(1, 12, 1);
+   }
+   tfoot td{
+    font-weight: bold;
+   }
+   .container{
+    box-sizing: border-box;
+    max-width: 800px;
+    margin:20px auto;
+    padding:0 20px;
+   }
+   .center{
+    margin:auto;
+    width: 50%;
+    height:90%;
+   }
+   .delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
